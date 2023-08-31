@@ -281,6 +281,7 @@ def randBuildLSB():
     ua = 'Dalvik/2.1.0 (Linux; U; Android 11; Nokia Build/TT0.201005.001) [FBAN/FB4A;FBAV/409.0.0.27.106;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/462563379;FBCR/Telstra;FBMF/HMD Global;FBBD/Nokia;FBDV/Nokia0;FBSV/11;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.25,width=720,height=1479};FB_FW/1;FBRV/465181455;]'
     ua = 'Dalvik/2.1.0 (Linux; U; Android 10; Nokia787 Build/429651.001) [FBAN/FB4C;FBAV/410.0.0.28.107;FBPN/com.facebook.katana;FBLC/fr_FR;FBBV/364420;FBCR/Verizon;FBMF/Nokia;FBBD/Nokia;FBDV/Nokia787;FBSV/11;FBCA/arm64-v8a;FBDM/density=3.00,width=1310,height=1185;FB_FW/2;FBRV/6004]'
     ua = 'Dalvik/2.1.0 (Linux; U; Android 12; Google Pixel859 Build/406839.001) [FBAN/FB4A;FBAV/410.0.0.28.107;FBPN/com.facebook.katana;FBLC/en_UK;FBBV/136950;FBCR/T-Mobile;FBMF/Google Pixel;FBBD/Google Pixel;FBDV/Google Pixel859;FBSV/11;FBCA/arm64-v8a;FBDM/density=2.57,width=667,height=2254;FB_FW/2;FBRV/841806]'
+    ua = '[FBAN/FB4A;FBAV/334.0.0.37.121;FBBV/174075079;FBLC/en_US;FBRV/175415557;FBCR/Nepal Telecom;FBMF/LGE;FBBD/lge;FBPN/com.facebook.katana;FBDV/LM-G900;FBSV/8.1.0;FBOP/19;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2034};]'
     return ua
 
 def randFBAN():
