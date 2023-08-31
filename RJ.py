@@ -274,8 +274,11 @@ filter = []
 def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
-    END = '[FBAN/FB4A;FBAV/4020.1.80.24.874;FBBV/4214899694;FBDM/{density=2.5,width=780,height=1920};FBLC/fr_IN;FBRV/4214899694;FBCR/1030;FBMF/Realme;FBBD/Ostin;FBPN/com.facebook.katana;FBDV/Ostin Realme 5;FBSV/16;FBOP/5;FBCA/arm64-v8a:;]'
-    ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/SP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
+    END = '[FBAN/FB4A;FBAV/431.0.0.53.10;FBBV/429501109;FBDM/{density=1.2,width=1280,height=960};FBLC/en_PK;FBRV/0;FBCR/Robi;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/RMX471C;FBSV/10;FBOP/1;FBCA/x64:armeabi-v7a;]'
+    ##ua = 'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/SP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
+    ua = '[FBAN/FB4A;FBAV/431.0.0.53.10;FBBV/429501109;FBDM/{density=1.2,width=1280,height=960};FBLC/en_PK;FBRV/0;FBCR/Robi;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/RMX471C;FBSV/10;FBOP/1;FBCA/x64:armeabi-v7a;]'
+    ua = '[FBAN/FB4A;FBAV/59.0.0.0.189;FBBV/19392060;FBDM/{density=3.0,width=1080,height=1920};FBLC/es_ES;FBCR/72234;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Redmi Note 2;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]'
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 11; Nokia Build/TT0.201005.001) [FBAN/FB4A;FBAV/409.0.0.27.106;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/462563379;FBCR/Telstra;FBMF/HMD Global;FBBD/Nokia;FBDV/Nokia0;FBSV/11;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.25,width=720,height=1479};FB_FW/1;FBRV/465181455;]'
     return ua
 
 def randFBAN():
@@ -309,7 +312,7 @@ logo =                                          """
                              
 ××××××××××××××××××××××××××××××××××
 \033[1;37m Github  : SHANTO-KING
-\033[1;37m Version : 0.1
+\033[1;37m Version : 0.01
 ××××××××××××××××××××××××××××××××××
 \033[1;37m """
 def clear():
