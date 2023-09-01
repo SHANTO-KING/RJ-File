@@ -275,7 +275,7 @@ def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
     #$ua = '[FBAN/FB4A;FBAV/420.0.0.32.61;FBBV/429501109;FBDM/{density=1.2,width=1280,height=960};FBLC/en_PK;FBRV/0;FBCR/Robi;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G980F;FBSV/13;FBOP/1;FBCA/x64:armeabi-v7a;]'
-    ua = 'Mozilla/5.0 (Linux; Android 13; SM-G980F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.130 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/420.0.0.32.61;]'
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 12; SM-G920F Build/TQ1A.948559.045) [FBAN/FB4A;FBAV/309.0.0.99.97;FBBV/377975134;FBRV/0;FBPN/com.facebook.katana;FBLC/ar_LY;FBMF/Samsung;FBBD/Samsung;FBDV/SM-G920F;FBSV/12;FBCA/x64:arm64-v8a;FBDM/{density=1.2128505945870784,width=405,height=780};FB_FW/1]'
     ##ua = '[FBAN/FB4A;FBAV/431.0.0.53.10;FBBV/429501109;FBDM/{density=1.2,width=1280,height=960};FBLC/en_PK;FBRV/0;FBCR/Robi;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/RMX471C;FBSV/10;FBOP/1;FBCA/x64:armeabi-v7a;]'
     ##ua = '[FBAN/FB4A;FBAV/59.0.0.0.189;FBBV/19392060;FBDM/{density=3.0,width=1080,height=1920};FBLC/es_ES;FBCR/72234;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Redmi Note 2;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]'
     ##ua = 'Dalvik/2.1.0 (Linux; U; Android 11; Nokia Build/TT0.201005.001) [FBAN/FB4A;FBAV/409.0.0.27.106;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/462563379;FBCR/Telstra;FBMF/HMD Global;FBBD/Nokia;FBDV/Nokia0;FBSV/11;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.25,width=720,height=1479};FB_FW/1;FBRV/465181455;]'
