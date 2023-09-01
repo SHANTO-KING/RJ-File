@@ -274,7 +274,10 @@ filter = []
 def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
-    END = '[FBAN/FB4A; FBAV/61.0.0.3267; [FBAN/FB4A; FBAV/; FBBV/; [FBAN/FB4A; FBAV/z61.0.0.15.6961.0.0.15.69; FBBV/20454115; FBDM/) {density=2.0,width=720, height=1280}; FBLC/es_US; FBCR/ZSGP-M1; FBMF/sumsung; FBBD/samsung; FBPN/com.facebook.katana; FBDV/ZSM-A426U; FBSN/Android; FBSV/11; FBOP/1; nullFBCA/armeabi-v7a: armeabi;]'
+    ##END = '[FBAN/FB4A; FBAV/61.0.0.3267; [FBAN/FB4A; FBAV/; FBBV/; [FBAN/FB4A; FBAV/z61.0.0.15.6961.0.0.15.69; FBBV/20454115; FBDM/) {density=2.0,width=720, height=1280}; FBLC/es_US; FBCR/ZSGP-M1; FBMF/sumsung; FBBD/samsung; FBPN/com.facebook.katana; FBDV/ZSM-A426U; FBSN/Android; FBSV/11; FBOP/1; nullFBCA/armeabi-v7a: armeabi;]'
+    ua = 'Mozilla/5.0 (Linux; Android 4; Mobile 123L Build/R820D.671993.637; wv) AppleWebKit/533.1 (KHTML, like Gecko) Version/6.0.1 Chrome/80.0.6186.472 Mobile Safari/533.36 [FB_IAB/FB4A;FBAV/58.0.0.27.192;]'
+    ua = 'Mozilla/5.0 (Linux; Android 6; Mobile 117J Build/R820D.196228.749; wv) AppleWebKit/533.1 (KHTML, like Gecko) Version/6.0.1 Chrome/88.0.1052.414 Mobile Safari/533.36 [FB_IAB/FB4A;FBAV/153.0.0.75.702;]'
+    ua = 'Mozilla/5.0 (Linux; Android 4; Mobile 308P Build/R820D.864068.239; wv) AppleWebKit/533.1 (KHTML, like Gecko) Version/6.0.1 Chrome/47.0.3307.966 Mobile Safari/533.36 [FB_IAB/FB4A;FBAV/395.0.0.87.235;]'
     ##ua = 'Dalvik/2.1.0 (Linux; U; Android 11; Nokia Build/TT0.201005.001) [FBAN/FB4A;FBAV/409.0.0.27.106;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/462563379;FBCR/Telstra;FBMF/HMD Global;FBBD/Nokia;FBDV/Nokia0;FBSV/11;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.25,width=720,height=1479};FB_FW/1;FBRV/465181455;]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/SP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
