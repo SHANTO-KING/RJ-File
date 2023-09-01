@@ -274,7 +274,9 @@ filter = []
 def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
-    ua = '[FBAN/FB4A;FBAV/370.0.0.16.116;FBBV/174075079;FBLC/en_GB;FBRV/175415557;FBCR/Grameenphone;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/SM-A125F;FBSV/8.1.0;FBOP/19;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2034};]'
+    END = '[FBAN/FB4A;FBAV/4020.1.80.24.874;FBBV/4214899694;FBDM/{density=2.5,width=780,height=1920};FBLC/fr_IN;FBRV/4214899694;FBCR/1030;FBMF/Realme;FBBD/Ostin;FBPN/com.facebook.katana;FBDV/Ostin Realme 5;FBSV/16;FBOP/5;FBCA/arm64-v8a:;]'
+    ua = f'Dalvik/2.1.0 (Linux; U; Android 11; Nokia Build/TT0.201005.001) [FBAN/FB4A;FBAV/409.0.0.27.106;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/462563379;FBCR/Telstra;FBMF/HMD Global;FBBD/Nokia;FBDV/Nokia0;FBSV/11;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.25,width=720,height=1479};FB_FW/1;FBRV/465181455;]'
+    ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/SP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
 def randFBAN():
