@@ -275,7 +275,7 @@ def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
     ##END = '[FBAN/FB4A; FBAV/61.0.0.3267; [FBAN/FB4A; FBAV/; FBBV/; [FBAN/FB4A; FBAV/z61.0.0.15.6961.0.0.15.69; FBBV/20454115; FBDM/) {density=2.0,width=720, height=1280}; FBLC/es_US; FBCR/ZSGP-M1; FBMF/sumsung; FBBD/samsung; FBPN/com.facebook.katana; FBDV/ZSM-A426U; FBSN/Android; FBSV/11; FBOP/1; nullFBCA/armeabi-v7a: armeabi;]'
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 8.1.0; CPH1909 Build/SM-A136B|TP1A.220624.014) [FBAN/Orca-Android;FBAV/241.0.0.17.116;FBPN/com.facebook.orca;FBLC/th_TH;FBBV/182747440;FBCR/TRUE-H;FBMF/SM-L291J;FBBD/SM-L291J;FBDV/CPH1909;FBSV/8.1.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=1424,height=720};FB_FW/1;] FBBK/1'
+    ua = 'Dalvik/2.1.0 Linux; U; Android 5; M2003J15SC Build/RP1A.293742285) [FBAN/FB4A;FBAV/420.0.0.10.48;FBBV/107174740;FBDM/{density=2.0,width=720,height=1440};FBLC/en_US;FBCR/Banglalink;FBMF/Realme;FBBD/Huawei;FBPN/com.facebook.katana;FBDV/Huawei U101T;FBSV/7;FBOP/1;FBCA/armeabi-v7a:armeabi:;]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/SP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
