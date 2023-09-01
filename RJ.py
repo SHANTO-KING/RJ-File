@@ -281,7 +281,7 @@ def randBuildLSB():
 
 def randFBAN():
   VAPP = random.randint(410000000,499999999)
-  ua="Davik/2.1.0 (Linux; U; Android 13; 23049RAD8C Build/TKQ1.221114.001) [FBAN/MessengerLite;FBAV/301.0.0.86;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/291009976;FBCR/;FBMF/Xiaomi;FBBD/Redmi;FBDV/23049RAD8C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
+  ua='Davik/2.1.0 (Linux; U; Android 13; 23049RAD8C Build/TKQ1.221114.001) [FBAN/MessengerLite;FBAV/301.0.0.86;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/291009976;FBCR/;FBMF/Xiaomi;FBBD/Redmi;FBDV/23049RAD8C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
   return ua
 
 def randBuildvsskj():
