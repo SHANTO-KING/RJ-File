@@ -274,8 +274,8 @@ filter = []
 def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
-    END = '[FBAN/FB4A;FBAV/4020.1.80.24.874;FBBV/4214899694;FBDM/{density=2.5,width=780,height=1920};FBLC/fr_IN;FBRV/4214899694;FBCR/1030;FBMF/Realme;FBBD/Ostin;FBPN/com.facebook.katana;FBDV/Ostin Realme 5;FBSV/16;FBOP/5;FBCA/arm64-v8a:;]'
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 11; Nokia Build/TT0.201005.001) [FBAN/FB4A;FBAV/409.0.0.27.106;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/462563379;FBCR/Telstra;FBMF/HMD Global;FBBD/Nokia;FBDV/Nokia0;FBSV/11;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.25,width=720,height=1479};FB_FW/1;FBRV/465181455;]'
+    END = '[FBAN/FB4A; FBAV/61.0.0.3267; [FBAN/FB4A; FBAV/; FBBV/; [FBAN/FB4A; FBAV/z61.0.0.15.6961.0.0.15.69; FBBV/20454115; FBDM/) {density=2.0,width=720, height=1280}; FBLC/es_US; FBCR/ZSGP-M1; FBMF/sumsung; FBBD/samsung; FBPN/com.facebook.katana; FBDV/ZSM-A426U; FBSN/Android; FBSV/11; FBOP/1; nullFBCA/armeabi-v7a: armeabi;]'
+    ##ua = 'Dalvik/2.1.0 (Linux; U; Android 11; Nokia Build/TT0.201005.001) [FBAN/FB4A;FBAV/409.0.0.27.106;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/462563379;FBCR/Telstra;FBMF/HMD Global;FBBD/Nokia;FBDV/Nokia0;FBSV/11;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.25,width=720,height=1479};FB_FW/1;FBRV/465181455;]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/SP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
