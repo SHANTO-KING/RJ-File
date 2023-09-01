@@ -276,12 +276,12 @@ def randBuildLSB():
     VAPP = random.randint(410000000,499999999)
     ##END = '[FBAN/FB4A; FBAV/61.0.0.3267; [FBAN/FB4A; FBAV/; FBBV/; [FBAN/FB4A; FBAV/z61.0.0.15.6961.0.0.15.69; FBBV/20454115; FBDM/) {density=2.0,width=720, height=1280}; FBLC/es_US; FBCR/ZSGP-M1; FBMF/sumsung; FBBD/samsung; FBPN/com.facebook.katana; FBDV/ZSM-A426U; FBSN/Android; FBSV/11; FBOP/1; nullFBCA/armeabi-v7a: armeabi;]'
     ua = 'Davik/2.1.0 (Linux; U; Android 13; 23049RAD8C Build/TKQ1.221114.001) [FBAN/MessengerLite;FBAV/301.0.0.86;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/291009976;FBCR/;FBMF/Xiaomi;FBBD/Redmi;FBDV/23049RAD8C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
-    ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/SP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
+    ##ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/SP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
 def randFBAN():
   VAPP = random.randint(410000000,499999999)
-  ua="[FBAN/FB4A;FBAV/470.1.80.24.874;FBBV/"+str(VAPP)+";FBDM/{density=2.5,width=780,height=1920};FBLC/fr_IN;FBRV/4214899694;FBCR/1030;FBMF/Realme;FBBD/Ostin;FBPN/com.facebook.katana;FBDV/"+random.choice(model2)+";FBSV/16;FBOP/5;FBCA/arm64-v8a:;]"
+  ua="Davik/2.1.0 (Linux; U; Android 13; 23049RAD8C Build/TKQ1.221114.001) [FBAN/MessengerLite;FBAV/301.0.0.86;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/291009976;FBCR/;FBMF/Xiaomi;FBBD/Redmi;FBDV/23049RAD8C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
   return ua
 
 def randBuildvsskj():
